@@ -1,18 +1,17 @@
-
-import Introduction from './Components/Introduction';
-import NavBarMenu from './Components/NavBarMenu';
-import Services from '../src/Components/Services/Services';
+import DynamicForm from "./Components/DynamicForm";
+import Introduction from "./Components/Introduction";
+import NavbarMenu from './Components/NavBarMenu'
+import Services from './Components/Services/Services'
 
 function App() {
   return (
-    <div className='App'>
-        <NavBarMenu />
-        <Introduction  />
-        <Services />
+    <div>
+      <NavbarMenu />
+      <Introduction />
+      <Services />
+      <DynamicForm />
     </div>
   );
-
 }
 
 export default App;
-
